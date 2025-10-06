@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Assistant', Arial, sans-serif;
+  background-color: #f9fafb;
+  direction: rtl;
+}
+
+button {
+  cursor: pointer;
+}
