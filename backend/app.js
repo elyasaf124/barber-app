@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const otpRoutes = require('./routes/otp');
+const registerRoutes = require('./routes/register');
 const authRoutes = require('./routes/auth');
 const barbersRoutes = require('./routes/barbers');
 const appointmentsRoutes = require('./routes/appointments');
@@ -32,6 +33,7 @@ app.use('/api/barbers', barbersRoutes);
 app.use('/api/appointments', appointmentsRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/messages', messagesRoutes);
+app.use('/api/register', registerRoutes);
 
 // Basic health
 app.get('/api/health', (req, res) => res.json({ ok: true }));

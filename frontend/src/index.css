@@ -1,7 +1,9 @@
+/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* עיצוב מותאם משלך */
 body {
   margin: 0;
   font-family: 'Assistant', Arial, sans-serif;
